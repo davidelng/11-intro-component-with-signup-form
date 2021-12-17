@@ -1,0 +1,44 @@
+/* COLOR PALETTE */
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
+/* box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* delete default margins */
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+/* inherit font */
+input, button {
+    font: inherit;
+}
+/* set body defaults */
+body {
+    min-width: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* attribution */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* DESKTOP */
+@media (min-width: 62.5rem) {
+
+}
