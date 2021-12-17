@@ -130,6 +130,10 @@ form p span {
 
 /* DESKTOP */
 @media (min-width: 62.5rem) {
+    body {
+        background: url(images/bg-intro-desktop.png), var(--red);
+    }
+
     main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -149,7 +153,6 @@ form p span {
 
     .form {
         grid-column: 2/3;
-        padding-left: 0;
     }
 
     form {
