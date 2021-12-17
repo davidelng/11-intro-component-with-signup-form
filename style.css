@@ -25,13 +25,58 @@ input, button {
 }
 /* set body defaults */
 body {
-    min-width: 100vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    color: white;
+    background: url(images/bg-intro-mobile.png), var(--red);
+}
+
+section {
+    padding: 2rem;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p {
+    margin-top: 1rem;
+}
+
+.trial {
+    background: var(--blue);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+form {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+input {
+    width: 100%;
+    margin: .5rem 0;
+    padding: .8rem;
+    border: 1px solid var(--grayish-blue);
+    border-radius: .25rem;
+}
+
+input[type=submit] {
+    color: white;
+    background: var(--green);
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+    padding: 1rem;
 }
 
 /* attribution */
 .attribution { 
     font-size: 11px; text-align: center; 
+    margin: 1rem;
 }
 
 .attribution a { 
@@ -40,5 +85,17 @@ body {
 
 /* DESKTOP */
 @media (min-width: 62.5rem) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .description {
+        grid-column: 1/2;
+    }
 
+    .form {
+        grid-column: 2/3;
+    }
 }
