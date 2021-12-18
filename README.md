@@ -10,9 +10,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -35,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL]()
-[Live Site URL]()
+[Solution URL](https://github.com/davidelng/11-intro-component-with-signup-form)  
+[Live Site URL](https://davidelng.github.io/11-intro-component-with-signup-form/)
 
 ## My process
 
@@ -49,16 +47,9 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
-### What I learned
-
-
-
 ### Continued development
 
-
-
-### Useful resources
-
+New validation script better than the actual one
 
 ## Author
 
