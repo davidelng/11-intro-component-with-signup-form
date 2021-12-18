@@ -77,15 +77,16 @@ input {
     font-size: .8rem;
     font-weight: 700;
     width: 100%;
-    margin: .5rem 0;
+    margin: 0;
     padding: 1rem;
-    border: 1px solid hsl(246, 25%, 77%, 0.4);
+    /* border: 1px solid hsl(246, 25%, 77%, 0.4); */
+    border: none;
     border-radius: .25rem;
 }
 
-input:focus {
+/* input:focus {
     border: 1px solid var(--dark-blue);
-}
+} */
 
 input[type=submit] {
     color: white;
@@ -105,7 +106,43 @@ input[type=submit]:hover {
     background: hsl(154, 59%, 51%, 0.6);
 }
 
-form p {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsl(246, 25%, 77%, 0.4);
+    border-radius: .25rem;
+    margin: 1rem 0;
+}
+
+.data img, .data p {
+    display: none;
+}
+
+.invalid {
+    border: 2px solid var(--red);
+}
+
+.invalid input {
+    color: var(--red);
+}
+
+.invalid img {
+    display: block;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.data .warning {
+    display: block;
+    text-align: right;
+    color: var(--red);
+    font-size: .7rem;
+    margin: .5rem 0; 
+}
+
+form .terms {
+    margin-top: .3rem;
     padding: 0 2rem;
     line-height: 1.3rem;
     text-align: center;
@@ -113,7 +150,7 @@ form p {
     color: var(--grayish-blue);
 }
 
-form p span {
+form .terms span {
     color: var(--red);
     font-weight: 600;
 }
@@ -171,7 +208,7 @@ form p span {
     footer {
         width: 100%;
         position: absolute;
-        top: 90%;
+        top: 95%;
         text-align: center;
     }
 }

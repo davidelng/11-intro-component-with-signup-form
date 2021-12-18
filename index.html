@@ -28,14 +28,41 @@
         <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
       </div>
       <form action="">
-        <input type="text" name="first-name" id="first__name" placeholder="First Name">
-        <input type="text" name="last-name" id="last__name" placeholder="Last Name">
-        <input type="email" name="email" id="email" placeholder="Email Address">
-        <input type="password" name="password" id="password" placeholder="Password">
+        <div class="data first__name">
+          <div class="container">
+            <input type="text" name="first-name" id="first__name" placeholder="First Name">
+            <img src="images/icon-error.svg" alt="icon error">
+          </div>
+          <p class=""><em>First Name cannot be empty</em></p>
+        </div>
+        <div class="data last__name">
+          <div class="container">
+            <input type="text" name="last-name" id="last__name" placeholder="Last Name">
+            <img src="images/icon-error.svg" alt="icon error">
+          </div>
+          <p class=""><em>Last Name cannot be empty</em></p>
+        </div>
+        <div class="data email">
+          <div class="container">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <img src="images/icon-error.svg" alt="icon error">
+          </div>
+          <p class=""><em>Looks like this is not an email</em></p>
+        </div>
+        <div class="data password">
+          <div class="container">
+            <input type="password" name="password" id="password" placeholder="password">
+            <img src="images/icon-error.svg" alt="icon error">
+          </div>
+          <p class=""><em>Password cannot be empty</em></p>
+        </div>
+        <!-- <input type="text" name="last-name" id="last__name" placeholder="Last Name" required>
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+        <input type="password" name="password" id="password" placeholder="Password"> -->
 
         <input type="submit" value="Claim your free trial" id="btn">
 
-        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
       </form>
     </section>
   </main>
